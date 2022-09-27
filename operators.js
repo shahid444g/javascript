@@ -1,16 +1,16 @@
 // // arithematic operators 
-// let a = 2;
-// let b = 1;
-// // console.log(a+b);
-// // console.log(a-b);
-// // console.log(a*b);
-// // console.log(a/b);
-// // console.log(a%b); // remainder
+//  let a = 2;
+//  let b = 1;
+//  console.log(a+b); //3
+// console.log(a-b); //1
+//  console.log(a*b); //2
+//  console.log(a/b); //2
+//  console.log(a%b); // 0 remainder
 // //Assignment operators
 // // a=b;
 // // a= a+b; a = 3 //
 // a+=b;
-// console.log(a);
+// console.log(a); 
 // // a= a-b; a = 2
 // a-=b;
 // console.log(a);
@@ -34,11 +34,15 @@
 // if(age && gender){
 //     console.log("he is eligible");
 // }
+// else{
+//     console.log("not run");
+    
+// }
 // if(age || gender){
-//     console.log("he is eligible");
+//     console.log("he is eligible 1");
 // }
 // if(age && !(gender)){
-//     console.log("he is eligible");
+//     console.log("he is eligible 2");
 // }
 
 // // Relational operators 
@@ -49,7 +53,7 @@
 // // like this < , > , <= , >= , ==, ===
 
 // let constage = 19;
-// let age = '19';
+// let age = "19";
 // if (constage == age) {
 //     console.log('both are same'); // both are same
 // }
@@ -64,7 +68,7 @@
 // }
 // == checks only the value but === checks the value also 
 
-// increment operator
+// // increment operator
 // let a = 3;
 // console.log(a++); // 3
 // console.log(a); // 4
